@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         MAVEN_HOME = tool 'Maven-3.9.0'
-	PATH = "$MAVEN_HOME/bin:$PATH"
+	    PATH = "$MAVEN_HOME/bin:$PATH"
     }
     
     stages {
